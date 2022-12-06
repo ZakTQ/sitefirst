@@ -1,0 +1,81 @@
+@media (max-width: 1130px) {
+    .container {
+        max-width: 770px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .about {
+        background-color: rgb(235, 235, 235);
+
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__item {
+            margin: 10px;
+        }
+    }
+
+    .product {
+        background-color: rgb(235, 235, 235);
+
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        &__item {
+            margin: 10px;
+        }
+    }
+}
+@media (max-width: 966px) {
+    .header .menu {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .news-slider {
+        position: relative;
+        width: 100%;
+
+        &__item img {
+            width: 100%;
+        }
+    }
+    .news {
+        &__wrapper {
+            display: block;
+            justify-content: center;
+            padding: 0 10px;
+        }
+
+        &__text {
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+
+    .product {
+        &__wrapper {
+
+        }
+
+        &__item {
+
+        }
+    }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}
